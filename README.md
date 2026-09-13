@@ -1,4 +1,4 @@
-### Identitas Mahasiswa
+### NAMA ANGGOTA
 
 | Nama | NRP |
 | :--- | :--- |
