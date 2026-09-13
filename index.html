@@ -20,6 +20,40 @@
 
         <a href="cv.html" class="btn">Lihat Profil Lengkap</a>
     </div>
+
+    <div class="container content" style="margin-top: 30px; margin-bottom: 50px;">
+        <section>
+            <h2>Lapor Pak Presiden</h2>
+            <p>Sampaikan aspirasi, saran, atau laporan Anda langsung kepada Presiden Republik Indonesia.</p>
+
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Formulir Pengaduan & Aspirasi</legend>
+
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+                    <label for="kategori">Kategori Laporan:</label>
+                    <select id="kategori" name="kategori">
+                        <option value="Pendidikan & Sekolah">Pendidikan & Sekolah</option>
+                        <option value="Infrastruktur & Jalan">Infrastruktur & Jalan</option>
+                        <option value="Pelayanan Publik">Pelayanan Publik</option>
+                        <option value="Kesehatan">Kesehatan</option>
+                        <option value="Bantuan Sosial">Bantuan Sosial</option>
+                    </select>
+
+                    <label for="pesan">Isi Laporan / Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan laporan atau pesan Anda di sini..."
+                        required></textarea>
+                </fieldset>
+
+                <button type="submit" class="btn">Kirim Laporan</button>
+            </form>
+        </section>
+    </div>
 </body>
 
 </html>
