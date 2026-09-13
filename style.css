@@ -51,6 +51,7 @@ a:hover {
     background-color: white;
     border: 1px solid #dddddd;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .hero img {
@@ -282,4 +283,39 @@ a:hover {
     .proyek-grid {
         grid-template-columns: 1fr;
     }
+}
+
+fieldset {
+    border: 1px solid #dddddd;
+    padding: 15px 20px 20px;
+    margin-top: 15px;
+}
+
+legend {
+    color: #0056b3;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+button.btn {
+    border: none;
+    cursor: pointer;
 }
